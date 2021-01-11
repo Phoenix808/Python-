@@ -1,3 +1,9 @@
 name=input("enter the file name")
 if name[-1]=="y" and name[-2]=="p":
     print("The extension of file is:'python'")
+elif name[-1]=="p" and name[-2]=="p" and name[-3]=="c":
+    print("the extension of file is:'CPP'")
+elif name[-1]=="a" and name[-2]=="v" and name[-3]=="a" and name[-4]=="j":
+    print("the extension of file is:'JAVA'")
+if name[-1]=="c":
+    print("the extension of file is:'C'")
