@@ -1,7 +1,16 @@
-list1=[12,-7,5,64,-14]
-list2=[12,14,-95,3]
+list1=[]
+list2=[]
 l1=[]
 l2=[]
+m=int(input("enter the  number of values for list1"))
+n=int(input("enter the  number of values for list2"))
+for k in range(0,m):
+   element1=int(input("enter the value of element of list 1"))
+   list1.append(element1)
+for l in range(0,n):
+   element2=int(input("enter the value of element of list 2"))
+   list2.append(element2)
+
 for i in list1:
      if i>0:
          l1.append(i)
