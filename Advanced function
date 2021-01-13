@@ -1,0 +1,12 @@
+def frequent(n):
+  x=0
+  b=[]
+  a={}
+  for i in range(0,len(n)):
+    a[n[x]]=n.count(n[x])
+    x+=1
+    a.items()
+    print("for the keys {} the values are {}".format(sorted(a.keys(),reverse=True),sorted(a.values(),reverse=True)))
+  
+s=input("enter the string")
+print(frequent(s)) 
